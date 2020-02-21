@@ -1,447 +1,580 @@
-blackrhinoceros
-borneoelephant
-cottontoptamarin
-crossrivergorilla
-javanrhinoceros
-monteiberiaeleuth
-radiatedtortoise
-redwolf
-saola
-sumatranelephant
-sumatranorangutan
-sumatranrhinoceros
-westerngorilla
-westernlowlandorilla
-africanforestelephant
-africanpenguin
-africanwilddog
-albatross
-armadillo
-asianelephant
-asiaticblackbear
-axolotl
-ayeaye
-bactriancamel
-bandicoot
-bear
-bengaltiger
-bluewhale
-bonobo
-borneanorangutan
-brownbear
-butterflyfish
-chimpanzee
-chinchilla
-dhole
-easterngorilla
-easternlowlandgorilla
-finwhale
-fishingcat
-fossa
-galapagospenguin
-galapagostortoise
-gharial
-giantpandabear
-goldenliontamarin
-grizzlybear
-honeybee
-hummingbird
-indianelephant
-indianrhinoceros
-indochinesetiger
-indri
-kakapo
-killerwhale
-macaw
-magellanicpenguin
-malayantiger
-manatee
-markhor
-mongoose
-mountaingorilla
-numbat
-parrot
-piedtamarin
-proboscismonkey
-pygmyhippopotamus
-redpanda
-rhinoceros
-riverdolphin
-seaotter
-seaturtle
-seahorse
-siberiantiger
-sloth
-southchinatiger
-spectacledbear
-srilankanelephant
-sumatrantiger
-tapir
-tarsier
-tiger
-tortoise
-vulture
-waterbuffalo
-whiterhinoceros
-whitetiger
-wildebeest
-wombat
-yelloweyedpenguin
-vulnerable
-aldabragianttortoise
-asianpalmcivet
-bandedpalmcivet
-binturong
-cassowary
-cheetah
-cloudedleopard
-crestedpenguin
-darwin'sfrog
-dwarfcrocodile
-hippopotamus
-humboldtpenguin
-komododragon
-lion
-malayancivet
-maskedpalmcivet
-polarbear
-quokka
-royalpenguin
-spermwhale
-sunbear
-uakari
-umbrellabird
-africanbushelephant
-angelfish
-anteater
-asiangianthornet
-badger
-baskingshark
-beaver
-bison
-bumblebee
-caiman
-catfish
-chameleon
-chicken
-coral
-cow
-crab
-crane
-crocodile
-cuscus
-cuttlefish
-deer
-deserttortoise
-dingo
-discus
-dolphin
-donkey
-dragonfly
-dugong
-eagle
-elephant
-falcon
-ferret
-fox
-frog
-furseal
-gecko
-giantclam
-gibbon
-gilamonster
-glowworm
-gopher
-gorilla
-greatwhiteshark
-greyreefshark
-greyseal
-hammerheadshark
-hare
-herculesbeetle
-hermitcrab
-horse
-hyena
-iguana
-indianstartortoise
-jaguar
-japanesemacaque
-kangaroo
-kingcrab
-kingfisher
-kiwi
-ladybird
-leaftailedgecko
-lemming
-leopardseal
-leopardtortoise
-lizard
-macaronipenguin
-magpie
-mandrill
-mayfly
-minkewhale
-mole
-molly
-monitorlizard
-moth
-nurseshark
-olm
-otter
-pademelon
-panther
-penguin
-pinkfairyarmadillo
-poisondartfrog
-purpleemperor
-pussmoth
-pygmymarmoset
-quetzal
-quoll
-redkneetarantula
-riverturtle
-robin
-salamander
-sandlizard
-seadragon
-sealion
-seasquirt
-seaurchin
-seal
-shrimp
-snappingturtle
-spinydogfish
-sponge
-squirrel
-stagbeetle
-starfish
-stickinsect
-stingray
-swan
-tang
-tasmaniandevil
-tawnyowl
-tigershark
-tuatara
-waterdragon
-whaleshark
-wolf
-wolverine
-woollymonkey
-yak
-zebrashark
-bongo
-gentoopenguin
-leopard
-mantaray
-okapi
-walrus
-adeliepenguin
-africancivet
-africanclawedfrog
-africanpalmcivet
-africantreetoad
-alligator
-ant
-antelope
-arcticfox
-arctichare
-arcticwolf
-avocet
-baboon
-barb
-barnowl
-barnacle
-barracuda
-bat
-beardeddragon
-beetle
-birdsofparadise
-blackbear
-blackwidowspider
-bobcat
-booby
-bottlenoseddolphin
-budgerigar
-buffalo
-bullshark
-bullfrog
-burrowingfrog
-butterfly
-caimanlizard
-capybara
-caracal
-caterpillar
-centipede
-chamois
-chinstrappenguin
-chipmunk
-cichlid
-clownfish
-coati
-cockroach
-collaredpeccary
-commonbuzzard
-commonfrog
-commonloon
-commontoad
-cougar
-coyote
-crabeatingmacaque
-dormouse
-duck
-earwig
-echidna
-ediblefrog
-electriceel
-elephantseal
-elephantshrew
-emperorpenguin
-emperortamarin
-emu
-fennecfox
-firebelliedtoad
-flamingo
-flounder
-fly
-flyingsquirrel
-frigatebird
-frilledlizard
-gar
-geoffroystamarin
-gerbil
-giantafricanlandsnail
-giraffe
-glasslizard
-goat
-goldenoriole
-goose
-grasshopper
-greenbeeeater
-greymouselemur
-grouse
-guineafowl
-guineapig
-guppy
-hamster
-hedgehog
-heron
-highlandcattle
-hornedfrog
-horseshoecrab
-howlermonkey
-human
-humpbackwhale
-ibis
-impala
-indianpalmsquirrel
-insect
-jackal
-jellyfish
-keelbilledtoucan
-kingpenguin
-koala
-kudu
-lemur
-leopardcat
-lionfish
-littlepenguin
-llama
-lobster
-longearedowl
-lynx
-marinetoad
-marshfrog
-meerkat
-millipede
-monkey
-moorhen
-moose
-morayeel
-mountainlion
-mouse
-mule
-newt
-nightingale
-ocelot
-octopus
-opossum
-ostrich
-oyster
-patasmonkey
-peacock
-pelican
-pheasant
-pig
-pika
-pike
-piranha
-platypus
-pondskater
-poolfrog
-porcupine
-possum
-prawn
-pufferfish
-puffin
-puma
-quail
-rabbit
-raccoon
-raccoondog
-rat
-redhandedtamarin
-reindeer
-rockhyrax
-rockhopperpenguin
-roseatespoonbill
-scorpion
-scorpionfish
-seaslug
-serval
-sheep
-siamesefightingfish
-silverdollar
-skunk
-slowworm
-snail
-snowyowl
-spadefoottoad
-sparrow
-spidermonkey
-squid
-squirrelmonkey
-stoat
-stripedrocketfrog
-termite
-tetra
-thornydevil
-tigersalamander
-toucan
-treefrog
-tropicbird
-turkey
-uguisu
-vampirebat
-vervetmonkey
-wallaby
-warthog
-wasp
-watervole
-weasel
-whitefacedcapuchin
-wildboar
-woodlouse
-woodpecker
-wrasse
-zebu
-common
-camel
-duskydolphin
-hornshark
-orangutan
-zebra
-liger
-zonkey
-zorse
-xraytetra
+Dickson Experimental Sound Film (1895)
+The Opera Martha (1898)
+Chasles (1900)
+Le Cid (1900)
+Cossira (1900)
+Cyrano de Bergerac (1900)
+Don Juan (1900)
+L’enfant prodigue (1900)
+Falstaff (1900)
+Féraudy (1900)
+Footit chocolat (1900)
+Javanese Dance (1900)
+Jules Moy (1900)
+La Korrigane (1900)
+Ma Cousine (1900)
+Madame Sans-Gêne (1900)
+Mariette Sully (1900)
+Mason and Forbes (1900)
+Mily Meyer (1900)
+Polin (1900)
+Les précieuses ridicules (1900)
+Reichemberg (1900)
+Roméo et Juliette (1900)
+Sylvia (1900)
+Phono-Cinéma-Théâtre Films
+presented only with live sound effects
+Le duel d’Hamlet (1900)
+Little Tich et ses “Big Boots” (1900)
+Algy the Piccadilly Johnny (1900)
+The Blind Boy (1900)
+The Cornfields Quartette (1900)
+Kitty Mahone (1900)
+The Lambeth Walk (1900)
+Louisiana Lou (1900)
+The Midnight Son (1900)
+Sally in Our Alley (1900)
+Turn Out of the Fire Brigade (1900)
+Kitty Malone (1901)
+The Lambeth Cake Walk (1901)
+The Midnight Sun (1901)
+Sally in Our Alley (1901)
+Duos from Carmen (190?)
+Sketch by Galipaux (190?)
+Song by Yvette Guilbert (190?)
+Parsifal (1904)
+Black Face Comedian (1904)
+Cornet Soloist (1904)
+Unidentified Gaumont Film (1902?)
+Mily Meyer (190?)
+Polin (190?)
+Réjane Sound Film (1908)
+Sarah Bernhardt Sound Film (1908)
+Dreamy Eyes (1905)
+Animal Imitations (1906)
+Ave Maria (Gounod) (1906)
+Captain of the Pinafore (1906)
+Chorus, Gentlemen! (1906)
+The Coster’s Serenade (1906)
+Exselsior (1906)
+The Fireman’s Song (1906)
+The Flowers That Bloom in the Spring (1906)
+Goodbye Sweet Marie (1906)
+The Heart Bowed Down (1906)
+Here’s a How-D’Ye-Do (1906)
+Home to Our Mountains (Il Trovatore) (1906)
+In Montezuma from “The Belle of Mayfair” (1906)
+Lakme: Les Stances (1906)
+Let Me Like a Soldier Fall (1906)
+Little Nell (1906)
+The Lord High Executioner (1906)
+The Love Song (1906)
+Miserere (Il Trovatore) (1906)
+Onward, Christian Soldiers (1906)
+Serenade from “Faust” (1906)
+Strolling Home with Angelina (1906)
+Swing Song from “Veronique” (1906)
+There is a Green Hill Far Away (1906)
+They Can’t Diddle Me (1906)
+Three Little Maids from School (1906)
+Ticklish Reuben (1906)
+Tit Willow (1906)
+The Waltz Must Change to a March (1906)
+We All Walked into the Shop (1906)
+Wert Thou Not to Koko Plighted (1906)
+The Whistling Coon (1906)
+You’ll Remember Me (1906)
+Are You Sincere? (1907)
+The Bedouin’s Love Song (1907)
+The Blind Violinist (1907)
+The Broken Melody (1907)
+Carmen (1907)
+Christians Awake! (1907)
+Cupid (1907)
+Curfew Shall Not Ring Tonight (1907)
+Every Little Bit Helps (1907)
+Faust (1907)
+The Fireman (1907)
+Glow Little Glow Worm, Glow (1907)
+Harrigan (1907)
+Home Again My Cherry Blossom (1907)
+I Love a Lassie (1907)
+Inverary (1907)
+The Laughing Nigger (1907)
+March of the Light Cavalry (1907)
+My Indian Anna (1907)
+Navaho (1907)
+Nelson’s Victory (1907)
+Please Conductor, Don’t Put Me Off the Train (1907)
+Regiment of Frocks and Frills (1907)
+The Royal Standard (1907)
+She is My Daisy (1907)
+Song from “The Belle of Mayfair” (1907)
+Stop Your Tickling, Jock (1907)
+Tala — Indian Love Song (1907)
+This Little Girl and That Little Girl (1907)
+Twin Brothers from “The French Maid” (1907)
+Wail Till the Work Comes Round (1907)
+The Wedding of Sandy McNab (1907)
+We Parted on the Shore (1907)
+Will Evans: On the Doorstep; Novelette; The Jockey (1907)
+Won’t You Throw Me a Kiss (1907)
+All Coons Look Alike to Me (Parody) (1908)
+Come My Lad and Be a Soldier (1908)
+D’ye Ken John Peel (1908)
+Following in Father’s Footsteps (1908)
+Goodbye Little Sister (1908)
+Hello Little Girl, Hello (1908)
+I Get Dizzy When I Do That Twostep Dance (1908)
+The Keys of Heaven (1908)
+Many is the Time (1908)
+Montezuma (1908)
+Redwing (1908)
+She’s Proud and She’s Beautiful (1908)
+Take Me Back to London Town (1908)
+Waltz Me Around Again Willie (1908)
+We Close at Two on Thursday (1908)
+Zuyder Zee (1908)
+Han som Klara Boren (1907)
+La Marseillaise (1907)
+Lucia di Lammermoor (1908)
+Death of Othello (1907)
+Desdemona (1908)
+Giampetro (190?)
+Der grüne Wald (190?)
+Church Parade from “The Catch of the Season” (1907)
+Cosy Corner Girl (1907)
+The Criminal Cried (1907)
+Down by the Old Bull and Bush (1907)
+The Flowers That Bloom in the Spring (1907)
+Fly Ann (1907)
+Four Jolly Sailor Boys From “The Princess of Kensington” (1907)
+Great Finale to Act 1 (“The Yeoman of the Guard”) (1907)
+Here’s a Fine How D’Ye Do (1907)
+Here Upon We’re Both Agreed (1907)
+If You Want to Know Who We Are (1907)
+It’s a Different Girl Again (1907)
+I Would Like to Marry You (1907)
+Laughing Song (1907)
+The Lord High Executioner (1907)
+Louba Dance (1907)
+Mattschiche Dance (1907)
+Miya Sama (1907)
+A More Humane Mikado (1907)
+Ocarina Solo (1907)
+The Old Folks at Home (1907)
+Our Great Mikado (1907)
+Riding on Top of a Car (1907)
+Swing Song from “Veronique” (1907)
+They Can’t Diddle Me (1907)
+Three Little Maids (1907)
+Tit Willow (1907)
+Waiting for Him Tonight (1907)
+A Wandering Minstrel (1907)
+We All Walked into the Shop (1907)
+Were I Thy Bride (1907)
+Were You Not to Koko Plighted (1907)
+What D’Yer Want to Talk About It (1907)
+Where, Oh, Where Has My Little Dog Gone? (1907)
+The Whistling Coon (1907)
+Xylophone Solo (1907)
+Zuyder Zee (1907)
+Billie Brown of London Town (1908)
+If the Man in the Moon Were a Coon (1908)
+She’s a Lassie from Lancashire (1908)
+Ach Wie So Trügerisch (Rigoletto) (1908)
+La Donna e Mobile (1908)
+The Corsican Brothers (1909)
+I Guess I’m Bad (1909)
+Turkish Bathhouse Scene (1909)
+Love Me and the World is Mine (1908)
+Oh, Oh, Antonio (1908)
+All Coons Look Alike to Me (1909)
+Always (1909)
+Apache Dance (1909)
+Are You Sincere? (1909)
+Because (1909)
+Bravo Territorials! (1909)
+Caller Herring (1909)
+Come Into the Garden, Maud (1909)
+Eileen Allanah (1909)
+Ever of Thee (1909)
+Excelsior (1909)
+Father O’Flynn (1909)
+For Ever and For Ever (1909)
+Four Jolly Sailormen (1909)
+The Galloping Major (1909)
+Hannah Won’t You Open That Door (1909)
+Heard in Court (1909)
+Home Again My Cherry Blossom (1909)
+I Don’t Care If There’s a Girl There (1909)
+I Fear No Foe (1909)
+If I Should Plant a Tiny Seed of Love (1909)
+I’m Afraid to Go Home in the Dark (1909)
+I’m Off to Philadelphia (1909)
+I’m Wearing My Heart Away for You (1909)
+Isn’t It Lovely to Be in Love? (1909)
+It’s a Different Girl Again (1909)
+I Want You to See My Girl (1909)
+John Willie, Come On (1909)
+Jolly Good Company (1909)
+Kate, Won’t You Roller Skate? (1909)
+Kissing Duet from “The Geisha” (1909)
+Land of Hope and Glory (1909)
+The Laughing Song (1909)
+Let’s Have a Song About the Boys (1909)
+A Little Boy Called Taps (1909)
+The Little Rocking Chair (1909)
+Little Willie’s Wild Woodbines (1909)
+Little Wooden Hut (1909)
+Loch Lomond (1909)
+Love’s Old Sweet Song (1909)
+The Man and the Woman (1909)
+Mary (1909)
+Mona (1909)
+My Girl’s a Yorkshire Girl (1909)
+My Little Deutscher Girl (1909)
+My Little Yiddisher Boy (1909)
+My Rainbow (1909)
+Oh, Salome, Oh, Oh, Oh! (1909)
+Ora Pro Nobis (1909)
+The Planter’s Wife (1909)
+Queen of the Earth (1909)
+The Rain Came Pitter Patter Down (1909)
+The Salome Dance Music (1909)
+Seaweed (1909)
+Since Daddy Was Taken Away (1909)
+Sneezing (1909)
+Sue, Sue, Sue (1909)
+The Taximeter Cab (1909)
+The Villain of the Piece (1909)
+The Waltz Must Turn to a March (1909)
+When We’re Together (1909)
+A White Man (1909)
+Won’t You Waltz the Merry Widow Waltz with Me? (1909)
+Torreador (1909)
+Faust (1910)
+Il Trovatore (1910)
+Carmen: Air du toréador (1910)
+La Légende du roi Gambrinus (1911)
+La Marseillaise (1911)
+Chronophone Sound Film (191?)
+Lucia di Lammermoor (1911)
+Faust (1911)
+The Two Obadiahs (1911)
+The Chocolate Major (1913)
+Jimmie Valentine (1913)
+Toreador Song, from Carmen (1913)
+Wearing of the Green (1913)
+Edison Kinetophone Sound Films
+The Edison Kinetophone (1913)
+Votes for Women (1913)
+La Bohème (1913)
+The Chimes of Normandy (1913)
+The Five Bachelors (1913)
+Her Redemption (1913)
+The Politician (1913)
+The Edison Minstrels (1913)
+A Minstrel Show (1913)
+The Musical Blacksmiths (1913)
+The Deaf Mute (1913)
+The Old Guard (1913)
+Jack’s Joke (1913)
+Nursery Favorites (1913)
+The Transformation of Faust (1913)
+Julius Caesar (1913)
+Andrew Carnegie (1914)
+The Birth of the Telephone (1914)
+The Old Violin (1914)
+And Very Nice Too (1913)
+Good Queen Bess (1913)
+His Father’s Voice: Mrs. Kelly (1913)
+Persian Dance: Eightpence a Mile (1913)
+Trio: Everybody’s Doing It (1913)
+Harry Lauder — Himself (1914)
+Harry Lauder Singing I Love a Lassie (1914)
+Harry Lauder Singing Killiecrankie (1914)
+Harry Lauder Singing Roamin’ in the Gloamin’ (1914)
+Harry Lauder Singing Rob Roy McIntosh (1914)
+Harry Lauder Singing Saftest of His Family (1914)
+Harry Lauder Singing Same as His Father Was Before Him (1914)
+Harry Lauder Singing She’s Ma Daisy (1914)
+Harry Lauder Singing She’s the Lass for Me (1914)
+Harry Lauder Singing Wedding of Lauchie McGraw (1914)
+Harry Lauder Singing Weddin’ o’ Sandy McNab (1914)
+Harry Lauder Singing We Parted on the Shore (1914)
+Harry Lauder Singing When I Get Back to Bonnie Scotland (1914)
+Harry Lauder Singing Wie Dock and Doris (1914)
+Kellum Photo-Kinema Sound Films
+Dream Street (1921)
+The Famous Van Eps Trio in A Bit of Jazz (1921)
+Frederick Warde Reads Poem, A Sunset Reverie (1921)
+Harry Lauder (1921)
+Irvin S. Cobb, All-American Story Teller (1921)
+Judge Ben Lindsay in the Juvenile Court (1921)
+Miller and Lyles Sing De Ducks (1921)
+President Harding’s Secretary of Labor Davis (1921)
+Samuel Gompers the World's Greatest Labor Leader (1921)
+General Buat (1922)
+Paisant on France and the Unknown Warrior (1922)
+Der Brandstifter (1922)
+Barking Dog (1921)
+Flying Jenny Airplane (1921)
+Barber and Jackson, The Long and Short of It (1922)
+Ben Bernie and All the Lads (1922)
+Casey at the Bat (1922)
+Gloria Swanson and Thomas Meighan (1922)
+Lee de Forest Phonofilm Introduction (1922)
+Marie Rappold (1922)
+Songs of Yesterday (1922)
+Abraham Lincoln I (1923)
+Abraham Lincoln II (1923)
+Adolph Zukor Introduces Phonofilm (1923)
+Bella Donna (1923)
+A Boston Star: Borrah Minevitch (1923)
+Charles R. Taggart “The Old Country Fiddler” At the Singing School (1923)
+Cohen on the Telephone (1923)
+Conchita Piquer (1923)
+The Covered Wagon (1923)
+Eubie Blake at the Piano (1923)
+Eva Puck and Sammy White (1923)
+Henry Cass Demonstration Film (1923)
+Lillian Powell Bubble Dance (1923)
+Lincoln, the Man of the People (1923)
+Love’s Old Sweet Song (1923)
+A Musical Monologue (1923)
+Phonofilm (1923)
+Rigoletto, Act Two (1923)
+Sextet from Lucia di Lammermoor (1923)
+Sissle and Blake (1923)
+Snappy Tunes (1923)
+Stringed Harmony (1923)
+Weber and Fields (1923)
+Domen (1924)
+Fannie Ward (1924)
+A Few Moments with Eddie Cantor (1924)
+Five Minutes with Al Smith (1924)
+George Jessel (1924)
+Good-Bye My Lady Love (1924)
+John W. Davis (1924)
+The Jubilee Four (1924)
+Love’s Old Sweet Song (1924)
+Mother, Mother, Mother Pin a Rose on Me (1924)
+Oh Mabel (1924)
+Perennial Flapper (1924)
+President Coolidge, Taken on the White House Grounds (1924)
+Raymond Hitchcock Sketch (1924)
+Sarova Dancers (1924)
+Senator Robert La Follette (1924)
+Plastigrams (1924) reissue
+Chauncey DePew (1925)
+La chauve souris (1925)
+Daisy Bell (1925)
+Dear Old Pal (1925)
+Dixie (1925)
+Donald Brian (1925)
+Downey and Owens (1925)
+East Side, West Side (1925)
+Franklin D. Roosevelt Speech (1925)
+I Love a Lassie (1925)
+Luna-cy (1925)
+My Wife's Gone to the Country (1925)
+Nutcracker Suite (1925)
+Paul Specht Musical Number (1925)
+Retribution (1925)
+Roger Wolfe Kahn Musical Number (1925)
+Siegfried (1925)
+Suwanee River (1925)
+Al Herman (1926)
+Annie Laurie (1926)
+Bleak House (1926)
+Brooke Johns and Goodee Montgomery (1926)
+By the Light of the Silvery Moon (1926)
+Carson and Shean (1926)
+Comin’ Thro’ the Rye (1926)
+Cuban Sound Documentary (1926)
+Darling Nellie Gray (1926)
+Dolly Gray (1926)
+Gwen Farrar (1926)
+Gwen Farrar and Billy Meyerl in “I’ve Got a Sweetie on the Radio” (1926)
+Has Anybody Here Seen Kelly (1926)
+The Houston Sisters (1926)
+I Can’t Take You Out of My Dreams (1926)
+I Don’t Believe You’re in Love With Me (1926)
+I Want a Pie with a Plum In (1926)
+Jack Pearl and Ben Bard (1926)
+Joe Termini the Somnolent Melodist (1926)
+Julius Caesar (1926)
+Knee Deep in Daisies (1926)
+The Man in the Street (1926)
+Margie (1926)
+Marie Lloyd Jr. (1926)
+My Old Kentucky Home (1926)
+Nervo and Knox (1926)
+Oh, How I Hate to Get Up in the Morning (1926)
+Old Black Joe (1926)
+The Radio Bug (1926)
+The Radio Franks (1926)
+Santa Claus (1926)
+Sidney Bernstein Welcomes Phonofilm (1926)
+Sweet Adeline (1926)
+Thorpe Bates (1926)
+Tramp, Tramp, Tramp, the Boys Are Marching (1926)
+When I Lost You (1926)
+When That Yiddisher Band Played an Irish Tune (1926)
+When the Midnight Choo-Choo Comes to Alabam (1926)
+The Whistler (1926)
+Yaka-Hula-Hicka-Ooola (1926)
+The Actors’ Squad (1927)
+America’s Flyers (1927)
+Being All Alone (1927)
+Boheme Blue (1927)
+Call Me Up Some Rainy Afternoon (1927)
+Calm As the Night (1927)
+George Bernard Shaw (1927)
+Harry Shalson the Popular Entertainer (1927)
+His Rest Day (1927)
+I Don’t Care What You Used to Be (1927)
+John Citizen’s Lament (1927)
+Key and Heyworth (1927)
+The Lard Song (1927)
+Lawrence Wright’s Sensations of 1927 (1927)
+Lindburgh Reception (1927)
+The London Four (1927)
+Mark Griver and His Scottish Revellers (1927)
+The Merchant of Venice (1927)
+Norah Blaney (1927)
+Packing Up (1927)
+Saint Joan (1927)
+Scovell and Wheldon (1927)
+Sensations of 1927 (1927)
+The Sentence of Death (1927)
+So Blue (1927)
+Syncopation and Song (1927)
+Teddy Brown (1927)
+There Are More Heavens Than One (1927)
+The Three Rascals and a Piano (1927)
+Tommy Lorne and Dumplings (1927)
+Topsey Turvey (1927)
+To See If My Dreams Come True (1927)
+Ventriloquist (1927)
+Westminster Glee Singers (1927)
+Yid Nesbitt (1927)
+Yorke and Adams (1927)
+Burke and Burke (192?)
+Chic Sale (192?)
+Clyde Doerr and His Sax-o-phone Sextet (192?)
+Early Radio Broadcast (192?)
+Fokina Swan Dance (192?)
+Frank McHugh Sketch (192?)
+Helen Lewis and Her All-Girl Jazz Syncopators (192?)
+John Brooks (192?)
+New York City Streets and People (192?)
+Pavlova Swan Dance (192?)
+Richman and Bennett Sketch (192?)
+Scene from Lakmé (192?)
+Sir Harry Lauder (192?)
+Troy Fassett (192?)
+The Gentlemen (1925)
+Alma Barnes the Internationally Famous Mimic (1926)
+Alvin and Kelvin Keech (1926)
+Betty Chester the Well Known Co-Optimist Star (1926)
+Billy Merson Singing Desdemona (1926)
+Chorus, Gentlemen! (1926)
+Dick Henderson (1926)
+Ethel Hook (1926)
+The Fair Maid of Perth (1926)
+The Flat Charleston (1926)
+The Sheik of Araby (1926)
+The Antidote (1927)
+Arthur Roberts (1927)
+As We Lie (1927)
+Billy Merson in His Harry Lauder Burlesque (1927)
+Billy Merson in “Russian Opera” (1927)
+Charles A. Lindbergh (1927)
+The Coffee Stall (1927)
+Dandy George and Rosie (1927)
+Dick Henderson in a Song Scene (1927)
+Dick Henderson Singing Tripe (1927)
+Dick Henderson the Great Yorkshire Comedian (1927)
+Dunio and Gegna (1927)
+Edith Sitwell (1927)
+Elga Collins the Versatile Entertainer (1927)
+False Colours (1927)
+Farewell Message of Mister Levine and Captain Hinchcliffe — Just Before Their Departure on Their Return Flight to America (1927)
+George Jackley, the Indignant Comedian in “A Doggy Ditty” (1927)
+The Duke and Duchess of York Arrive at Farm Cove (1927)
+Hawthorne (1924)
+Miss Manila Martin and Her Pet Squirrel (1921)
+Bird in a Cage (1923)
+Theodore Case Test Film (1924)
+Theodore Case Sound Test (1925)
+Gallagher and Shean (1925)
+Gus Visser and His Singing Duck (1925)
+Madame Fifi (1925)
+Chinese Variety Performer with a Ukulele (192?)
+Ranger Song (192?)
+What Price Glory? (1926) 1927 rerelease
+The Family Picnic (1927)
+West Point (1927)
+The West Point Military Academy (1927)
+7th Heaven (1927)
+They’re Coming to Get Me (1927)
+A Wet Night (1926)
+Al Jolson in A Plantation Act (1926)
+The Better ’ole (1926)
+Between the Acts at the Opera (1926)
+Caro Nome (1926)
+Dr. Watson (1926)
+Don Juan (1926)
+An Evening on the Don (1926)
+La Fiesta (1926)
+His Pastimes (1926)
+Hon. Will H. Hays, President of the Motion Picture Producers & Distributors of America, Inc., Who Will Address You (1926)
+The Kreutzer Sonata (1926)
+Mischa Elman (1926)
+Overture “Tannhauser” (1926)
+Vesti La Giubba (1926)
+The Voice From the Screen (1926)
+The Volga Boatmen (1926)
+Adele Lenarr, Juvenile Songstress and Acrobatic Dancer, Singing and Dancing (1927)
+The Admirals, Four Boys and a Ukulele Offer a Program of Popular Songs (1927)
+Albert Spaulding, Concert Violinist, Playing Gypsy Airs by Sarasate, Souvenir by Drdla (1927)
+Albert Spaulding, Concert Violinist, Playing Nocturne No. 12 in G Major by Chopin, Hark, Hark, the Lark by Franz Schubert (1927)
+Anna Case in Swanee River, Supported by Roy Smeck, Dixie Jubilee Singers; Five Gallons of Gas and No Money to Pay for It (1927)
+The Arnaut Brothers (Johne and Rene) in The Famous Loving Birds (1927)
+Aunt Jemima, the Original Fun Flour Maker, Accompanied by Art Sorenson at the Piano (1927)
+Auriole Craven Offers Suppose I Had Never Met You (1927)
+Beniamino Gigli, Assisted by M. Picco and Minna Egener and the Metropolitan Opera Chorus in Three Numbers from Cavalleria Rusticana (1927)
+Beniamino Gigli of the Metropolitan Opera Co. in Program of Concert Favorites (1927)
+Beniamino Gigli, Tenor of the Metropolitan Opera Company, Singing Selections from Act 2 of the Opera La Gioconda (1927)
+Bennett Twins, Little Bare-Kneed Syncopators, Offer Their Song and Dance Recital (1927)
+Bernardo De Pace, “The Wizard of the Mandolin” (1927)
+Bert Lewis, Accompanied by Jack Carroll at the Piano, Sings I Wonder How I Look When I’m Asleep (1927)
+Bert Lewis, Popular Comedian, Accompanied by Jack Carroll at the Piano, Sings If My Baby Cooks as Good as She Looks (1927)
+The Bookworm (1927)
+Carolynne Snowden and Company (1927)
+Dick Rich and His Synchro Symphonists (1927)
+Elsie Janis in a Vaudeville Act, “Behind the Lines,” Assisted by Men’s Chorus of the 107th Regiment (1927)
+In a Monastery Cellar (1927)
+The Jazz Singer (1927)
+Jean Goldkette and His Orchestra (1927)
+John Miljan — Vitaphone Trailer Announcement — “The Jazz Singer” (1927)
+The Lash (1927)
+Lincoln’s Gettysburg Address (1927)
+Old San Francisco (1927)
+When the Wife’s Away (1927)
+When a Man Loves (1927)
+Babe Comes Home (1927)
+Love’s Old Sweet Song (1927)
+The Dress (1902)
+Sherlock Hochmes (1908)
+Lyman Howe’s Ride on a Runaway Train (1921)
+Chu Chin Chow (1923)
+The Bohemian Girl (1927)
+Charleston Dance (1927)
+Solomon’s Children (1927)
+Les heures (1909)
+Torero Song “Carmen” (Bizet) (1909)
+Vals ur Salstraalen (1911)
+Everybody Step in Musicolor (1922)
