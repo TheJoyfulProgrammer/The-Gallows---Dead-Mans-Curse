@@ -167,6 +167,7 @@ namespace tjpUtils
     const unsigned char ExtendedASCII_255{255};
 
     extern UINT8 CurrentWinColor;
+
     extern COORD CursorCoords;
 
     extern HHOOK KeyboardHook;
@@ -180,10 +181,16 @@ namespace tjpUtils
     extern void Color(uint8_t, uint8_t);
     extern void ClearConsoleToEndOfLine();
     extern void ClearScreen();
-    extern COORD GetCursor();
     extern void SetCursor(SHORT, SHORT);
     extern void DrawInfoBox(unsigned int, unsigned int, std::string, std::string);
     extern void DisplayInfo(unsigned int, unsigned int, unsigned int, std::string);
+    extern void ShowConsoleCursor(bool);
+
+    extern COORD GetCursor();
+
+    extern unsigned int GetKey();
+
+    extern LRESULT CALLBACK  Keyboard(int, WPARAM, LPARAM);
 
     extern std::string rtrim(std::string, std::string);
     extern std::string ltrim(std::string, std::string);
@@ -191,13 +198,6 @@ namespace tjpUtils
 
     extern std::string Get_File_Contents(const std::string);
     extern std::vector<std::string_view> SplitStringToVector(std::string_view, std::string_view);
-
-    extern void ShowConsoleCursor(bool);
-
-    extern unsigned int GetKey();
-
-    extern LRESULT CALLBACK  Keyboard(int, WPARAM, LPARAM);
-
 }
 
 #endif

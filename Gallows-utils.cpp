@@ -9,15 +9,30 @@
 
 namespace Gallows
 {
+    const char BlankFiller = tjpUtils::ExtendedASCII_177;
+    const unsigned char MaxNumOfPalettes{2};
+
     bool PlayScreenEnd;
+    bool RefreshCatList{true};
+
+    char ConsoleTitle[] = "The Gallows - Dead Mans Curse";
+    char CurrentPalette = 0;
+
+    unsigned char LetterWheel[26]{0};
 
     int NumberOfElementsMissingOnLastRow;
     int CategoryListOutSideMargins{2};
     int CategoryIndexMaxWidth;
     int CategoryIndexWidthMargin{2};
+    int ScreenIndex;
 
     long int WordListChosen{0};
     long int WordListChosenTemp{0};
+    long int MaxCategoryRows;
+    long int TopLeftSelection{0};
+    long int LastIndexOnScreen;
+    long int MaxColumns{3};
+    long int CurrentCodePage{0};
 
     long long int CurrentWordIndex{0};
     long long int SelectedWordIndex;
@@ -34,23 +49,6 @@ namespace Gallows
     COORD MaximumConsoleWindowSize = {130, 40};
 
     SMALL_RECT NewConsoleWindowRect = {0, 0, 130, 40};
-
-    const char BlankFiller = tjpUtils::ExtendedASCII_177;
-    const unsigned char MaxNumOfPalettes{2};
-
-    bool RefreshCatList{true};
-
-    int ScreenIndex;
-
-    long int MaxCategoryRows;
-    long int TopLeftSelection{0};
-    long int LastIndexOnScreen;
-    long int MaxColumns{3};
-
-    char ConsoleTitle[] = "The Gallows - Dead Mans Curse";
-    char CurrentPalette = 0;
-
-    long int CurrentCodePage{0};
 
     COLORREF ColorTable[3][16] =
     {
@@ -70,7 +68,7 @@ namespace Gallows
             RGB(   0, 208,   0),
             RGB(   0, 224,   0),
             RGB(   0, 240,   0),
-            RGB( 255, 255, 255)
+            RGB( 240, 255, 240)
         },
         {
             RGB(  16,  16,  16),
@@ -109,8 +107,6 @@ namespace Gallows
             RGB( 247, 102,   0)
         }
     };
-
-    unsigned char LetterWheel[26]{0};
 
     std::string IntroductionBoxTitle = "The Gallows - Dead Mans Curse";
     std::string BoxMessage;

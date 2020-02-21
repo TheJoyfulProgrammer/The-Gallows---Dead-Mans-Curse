@@ -487,6 +487,7 @@ namespace tjpUtils
         size_t Position, Iterator1;
 
         std::vector<std::string> MessageTokens;
+
         std::string Delimeters = "\n ";
         std::string LineMessage;
         std::string LineMessageTemp;

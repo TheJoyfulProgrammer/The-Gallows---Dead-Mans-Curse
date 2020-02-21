@@ -12,7 +12,6 @@
 #include "tjp-utils.hpp"
 
 void SetUpGame();
-long int ShowCategoryMenu();
 void Category_List_Check_Arrow_Up(unsigned int);
 void Category_List_Check_Arrow_Down(unsigned int);
 void Category_List_Check_Arrow_Left(unsigned int);
@@ -20,6 +19,8 @@ void Category_List_Check_Arrow_Right(unsigned int);
 void DrawCategoryInfoBox();
 void PlayGame();
 void EndGame();
+
+long int ShowCategoryMenu();
 
 int main(){
 
@@ -258,8 +259,9 @@ void PlayGame()
     int NumberOfGuessesLeft;
     int LetterMatches;
 
-    long long int Iterator1;
     unsigned int Key;
+
+    long long int Iterator1;
 
     std::string word;
     std::string HiddenMessage;
@@ -432,7 +434,6 @@ void PlayGame()
 
         if(DidWin == true)
         {
-            //tjpUtils::Color(0, 13);
             tjpUtils::SetCursor(Gallows::CursorAfterLetterList.X, Gallows::CursorAfterLetterList.Y + 1);
 
             Gallows::BoxMessage = "Very impressive! Since you solved this clue, I will turn myself in and inform the guards that it "
@@ -446,7 +447,6 @@ void PlayGame()
         } else {
 
             tjpUtils::SetCursor(Gallows::CursorNumberOfGuesses.X, Gallows::CursorNumberOfGuesses.Y);
-            //tjpUtils::Color(0, 13);
 
             std::cout << "You failed! But, for condolences, the message is: ";
             tjpUtils::Color(0, 15);
@@ -489,13 +489,12 @@ void EndGame()
     tjpUtils::Color(0, 4);
     tjpUtils::ClearScreen();
 
-    tjpUtils::SetCursor(2, 1);
-
     Gallows::BoxMessage = "You have chosen to wake up and come back to reality, so, you have been released from your never ending, always repeating "
                           "day of your execution. Go enjoy real life stuff, but don't forget about our adventures.\n\nThank you for playing another "
                           "great adventure by David Taylor and Walter Whitman (The Joyful Programmer)";
 
     tjpUtils::Color(4, 15);
+    tjpUtils::SetCursor(2, 1);
     tjpUtils::DrawInfoBox(Gallows::MaximumConsoleWindowSize.X - 4, 1, "The Gallows (PC Game)", Gallows::BoxMessage);
 
     Gallows::CursorAfterHeader = tjpUtils::GetCursor();
