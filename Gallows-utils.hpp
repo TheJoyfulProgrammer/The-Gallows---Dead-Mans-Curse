@@ -12,6 +12,7 @@ namespace Gallows
     };
 
     extern bool PlayScreenEnd;
+
     extern int NumberOfElementsMissingOnLastRow;
     extern int CategoryListOutSideMargins;
     extern int CategoryIndexMaxWidth;
@@ -29,6 +30,7 @@ namespace Gallows
     extern COORD CursorLetterList;
     extern COORD CursorAfterLetterList;
     extern COORD CursorSecretMessage;
+    extern COORD CursorAfterCatHeader;
 
     extern bool RefreshCatList;
     extern int ScreenIndex;
@@ -37,13 +39,12 @@ namespace Gallows
     extern long int TopLeftSelection;
     extern long int LastIndexOnScreen;
     extern long int MaxColumns;
-    extern COORD CursorAfterCatHeader;
 
     extern const char BlankFiller;
     extern char ConsoleTitle[];
 
     extern COORD NewConsoleBufferDimensions;
-    extern SMALL_RECT NewsrWindow;
+    //extern SMALL_RECT NewsrWindow;
     extern COORD MaximumConsoleWindowSize;
 
     extern char CurrentPalette;

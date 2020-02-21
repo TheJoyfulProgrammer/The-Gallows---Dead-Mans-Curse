@@ -251,14 +251,11 @@ void DrawCategoryInfoBox()
 
 void PlayGame()
 {
-    const int Win{1};
-    const int StillPlaying{0};
-    const int Lose{-1};
-
+    bool StillPlaying{true};
+    bool DidWin{false};
     bool Replay{true};
 
     int NumberOfGuessesLeft;
-    int WinOrLose;
     int LetterMatches;
 
     long long int Iterator1;
@@ -278,12 +275,14 @@ void PlayGame()
 
     do
     {
+        StillPlaying = true;
+        Gallows::PlayScreenEnd = false;
+
         Gallows::ScreenIndex = Gallows::PlayScreen;
 
         for(Iterator1 = 0; Iterator1 < 26; Iterator1++) Gallows::LetterWheel[Iterator1] = 0;
 
         NumberOfGuessesLeft = 6;
-        WinOrLose = StillPlaying;
 
         if(Gallows::CurrentWordIndex == (int)Words.size())
         {
@@ -353,8 +352,8 @@ void PlayGame()
 
         Gallows::ShowLetterStrip(Gallows::CursorLetterList);
 
-        while (WinOrLose == StillPlaying) {
-
+        do
+        {
             tjpUtils::Color(0, 13);
             tjpUtils::SetCursor(Gallows::CursorNumberOfGuesses.X, Gallows::CursorNumberOfGuesses.Y);
 
@@ -406,9 +405,19 @@ void PlayGame()
                 NumberOfGuessesLeft--;
             }
 
-            if (word == HiddenMessage) WinOrLose = Win;
-            if (NumberOfGuessesLeft < 1) WinOrLose = Lose;
-        }
+            if (word == HiddenMessage)
+            {
+                DidWin = true;
+                StillPlaying = false;
+            }
+
+            if (NumberOfGuessesLeft < 1)
+            {
+                DidWin = false;
+                StillPlaying = false;
+            }
+
+        } while (StillPlaying == true);
 
         tjpUtils::Color(0, 8);
         tjpUtils::SetCursor(Gallows::CursorSecretWord.X, Gallows::CursorSecretWord.Y);
@@ -421,9 +430,9 @@ void PlayGame()
         tjpUtils::Color(0, 13);
         std::cout << ClearLine;
 
-        if(WinOrLose == Win)
+        if(DidWin == true)
         {
-            tjpUtils::Color(0, 13);
+            //tjpUtils::Color(0, 13);
             tjpUtils::SetCursor(Gallows::CursorAfterLetterList.X, Gallows::CursorAfterLetterList.Y + 1);
 
             Gallows::BoxMessage = "Very impressive! Since you solved this clue, I will turn myself in and inform the guards that it "
@@ -437,7 +446,7 @@ void PlayGame()
         } else {
 
             tjpUtils::SetCursor(Gallows::CursorNumberOfGuesses.X, Gallows::CursorNumberOfGuesses.Y);
-            tjpUtils::Color(0, 13);
+            //tjpUtils::Color(0, 13);
 
             std::cout << "You failed! But, for condolences, the message is: ";
             tjpUtils::Color(0, 15);
@@ -451,11 +460,10 @@ void PlayGame()
         tjpUtils::SetCursor(2, Gallows::MaximumConsoleWindowSize.Y - 2);
         std::cout << "Your day restarted. Would you like to continue playing this category from this mysterious box?: ";
 
-        Gallows::PlayScreenEnd = true;
-        tjpUtils::ShowConsoleCursor(false);
-
         tjpUtils::SetCursor(Gallows::MaximumConsoleWindowSize.X - 10, Gallows::MaximumConsoleWindowSize.Y - 2);
         std::cout << "YES / NO";
+
+        Gallows::PlayScreenEnd = true;
 
         do
         {
