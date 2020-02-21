@@ -1,0 +1,134 @@
+# depslib dependency file v1.0
+1581656687 source:z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\thegallows-master\the-gallows.cpp
+	<algorithm>
+	<cerrno>
+	<chrono>
+	<cstring>
+	<ctime>
+	<fstream>
+	<iostream>
+	<stdexcept>
+	<vector>
+	<windows.h>
+	"Gallows-utils.hpp"
+	"tjp-utils.hpp"
+
+1580063553 z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\thegallows-master\gallows-utils.cpp
+	<algorithm>
+	<cerrno>
+	<chrono>
+	<cstring>
+	<ctime>
+	<fstream>
+	<iostream>
+	<stdexcept>
+	<vector>
+	<windows.h>
+
+1581398376 z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\thegallows-master\gallows-utils.hpp
+	<windows.h>
+
+1581398570 z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\thegallows-master\tjp-utils.hpp
+	<windows.h>
+
+1581657431 source:z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\thegallows-master\gallows-utils.cpp
+	<algorithm>
+	<cerrno>
+	<chrono>
+	<cstring>
+	<ctime>
+	<fstream>
+	<iostream>
+	<stdexcept>
+	<vector>
+	<windows.h>
+	"Gallows-utils.hpp"
+	"tjp-utils.hpp"
+
+1581400002 source:z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\thegallows-master\tjp-utils.cpp
+	<algorithm>
+	<cerrno>
+	<chrono>
+	<cstring>
+	<ctime>
+	<fstream>
+	<iostream>
+	<stdexcept>
+	<vector>
+	<limits>
+	<windows.h>
+	"tjp-utils.hpp"
+	"Gallows-utils.hpp"
+
+1582018269 source:z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\thegallows-2.0\the-gallows.cpp
+	<algorithm>
+	<cstring>
+	<ctime>
+	<iostream>
+	<vector>
+	<windows.h>
+	"Gallows-utils.hpp"
+	"tjp-utils.hpp"
+
+1582017713 z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\thegallows-2.0\gallows-utils.hpp
+	<windows.h>
+
+1582010652 z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\thegallows-2.0\tjp-utils.hpp
+	<windows.h>
+
+1582018269 source:z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\thegallows-2.0\tjp-utils.cpp
+	<cstring>
+	<fstream>
+	<iostream>
+	<vector>
+	<limits>
+	<windows.h>
+	"tjp-utils.hpp"
+	"Gallows-utils.hpp"
+
+1582017714 source:z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\thegallows-2.0\gallows-utils.cpp
+	<algorithm>
+	<cerrno>
+	<cstring>
+	<iostream>
+	<vector>
+	<windows.h>
+	"Gallows-utils.hpp"
+	"tjp-utils.hpp"
+
+1582264300 source:z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\the gallows - dead mans curse\gallows-utils.cpp
+	<algorithm>
+	<cerrno>
+	<cstring>
+	<iostream>
+	<vector>
+	<windows.h>
+	"Gallows-utils.hpp"
+	"tjp-utils.hpp"
+
+1582263840 z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\the gallows - dead mans curse\gallows-utils.hpp
+	<windows.h>
+
+1582262255 z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\the gallows - dead mans curse\tjp-utils.hpp
+	<windows.h>
+
+1582264498 source:z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\the gallows - dead mans curse\tjp-utils.cpp
+	<cstring>
+	<fstream>
+	<iostream>
+	<vector>
+	<limits>
+	<windows.h>
+	"tjp-utils.hpp"
+	"Gallows-utils.hpp"
+
+1582263600 source:z:\daa9ffb2-844b-46c6-90b3-dd3a3fa3f1d8\0010 - c++\david taylor's stuff\the gallows\the gallows - dead mans curse\the gallows - dead mans curse.cpp
+	<algorithm>
+	<cstring>
+	<ctime>
+	<iostream>
+	<vector>
+	<windows.h>
+	"Gallows-utils.hpp"
+	"tjp-utils.hpp"
+
