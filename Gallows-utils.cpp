@@ -122,9 +122,10 @@ namespace Gallows
 
     void DrawCategoryMenuList()
     {
-        long long int Iterator1;
         int XCoord;
         int YCoord;
+
+        long long int Iterator1;
 
         for(Iterator1 = Gallows::TopLeftSelection; Iterator1 <= Gallows::LastIndexOnScreen; Iterator1++)
         {
@@ -195,6 +196,7 @@ namespace Gallows
     void LoadCategoryLists()
     {
         int FirstFind;
+
         long long unsigned int Iterator1;
 
         std::string SplitDelimiters{","};
@@ -203,6 +205,7 @@ namespace Gallows
         std::string FileName;
         std::string DisplayName;
         std::string TempTextFileHolder;
+
         std::vector<std::string_view> TempSplitTextFileHolder;
 
         TempTextFileHolder.clear();

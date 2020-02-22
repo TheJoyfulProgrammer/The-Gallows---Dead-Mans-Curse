@@ -79,6 +79,7 @@ void SetUpGame()
 long int ShowCategoryMenu()
 {
     bool CategoryExit{false};
+
     unsigned int Key;
 
     tjpUtils::Color(0, 8);

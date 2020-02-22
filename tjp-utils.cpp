@@ -87,8 +87,9 @@ namespace tjpUtils
 
     std::vector<std::string_view> SplitStringToVector(const std::string_view StringToConvert, const std::string_view Delimiters)
     {
-        std::vector<std::string_view> OutputVector;
         size_t FirstFind = 0;
+
+        std::vector<std::string_view> OutputVector;
 
         while (FirstFind < StringToConvert.size())
         {
@@ -145,15 +146,15 @@ namespace tjpUtils
 
         INPUT_RECORD InputBuffer[128];
 
-        long int CurrentCatMouseX;
-        long int CurrentCatMouseY;
-
         short CurrentLetterBox{-1};
         short PreviousLetterBox{-1};
 
         int counter{0};
 
         unsigned int Key{0};
+
+        long int CurrentCatMouseX;
+        long int CurrentCatMouseY;
 
         LetterBoxCoordinates.X = 0;
         LetterBoxCoordinates.Y = Gallows::CursorLetterList.Y;
