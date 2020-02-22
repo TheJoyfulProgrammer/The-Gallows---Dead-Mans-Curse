@@ -26,7 +26,7 @@ namespace tjpUtils
 
 
 
-    void Color(UINT8 Foreground)
+    void Color(const UINT8 Foreground)
     {
         tjpUtils::CurrentWinColor = (tjpUtils::CurrentWinColor & 0xF0) | (Foreground & 0x0F);
         SetConsoleTextAttribute(tjpUtils::hstdout, tjpUtils::CurrentWinColor);
@@ -34,7 +34,7 @@ namespace tjpUtils
 
 
 
-    void Color(uint8_t ForegroundColor, uint8_t BackgroundColor)
+    void Color(const uint8_t ForegroundColor, const uint8_t BackgroundColor)
     {
         tjpUtils::CurrentWinColor = ((ForegroundColor & 0x0F) << 4) | (BackgroundColor & 0x0F);
         SetConsoleTextAttribute(tjpUtils::hstdout, tjpUtils::CurrentWinColor);
@@ -85,7 +85,7 @@ namespace tjpUtils
 
 
 
-    std::vector<std::string_view> SplitStringToVector(std::string_view StringToConvert, std::string_view Delimiters)
+    std::vector<std::string_view> SplitStringToVector(const std::string_view StringToConvert, const std::string_view Delimiters)
     {
         std::vector<std::string_view> OutputVector;
         size_t FirstFind = 0;
@@ -107,26 +107,26 @@ namespace tjpUtils
 
 
 
-    std::string rtrim(std::string StringToTrim, std::string WhiteSpace)
+    std::string rtrim(std::string StringToTrim, const std::string WhiteSpace)
     {
         StringToTrim.erase(StringToTrim.find_last_not_of(WhiteSpace) + 1);
         return StringToTrim;
     }
 
-    std::string ltrim(std::string StringToTrim, std::string WhiteSpace)
+    std::string ltrim(std::string StringToTrim, const std::string WhiteSpace)
     {
         StringToTrim.erase(0, StringToTrim.find_first_not_of(WhiteSpace));
         return StringToTrim;
     }
 
-    std::string  trim(std::string StringToTrim, std::string WhiteSpace)
+    std::string  trim(std::string StringToTrim, const std::string WhiteSpace)
     {
         return ltrim(rtrim(StringToTrim, WhiteSpace), WhiteSpace);
     }
 
 
 
-    VOID ErrorExit (std::string Message)
+    VOID ErrorExit (const std::string Message)
     {
         std::cout << Message << "\n";
         ExitProcess(0);
@@ -364,7 +364,7 @@ namespace tjpUtils
 
 
 
-    void DrawInfoBox(unsigned int Width, unsigned int Margin, std::string Title, std::string Message)
+    void DrawInfoBox(const unsigned int Width, const unsigned int Margin, const std::string Title, const std::string Message)
     {
         COORD CurrentPosition = GetCursor();
 
@@ -479,7 +479,7 @@ namespace tjpUtils
 
 
 
-    void DisplayInfo(unsigned int Width, unsigned int MarginTopBottom, unsigned int MarginLeftRight, std::string Message)
+    void DisplayInfo(const unsigned int Width, const unsigned int MarginTopBottom, const unsigned int MarginLeftRight, const std::string Message)
     {
         COORD CurrentPosition = GetCursor();
 
@@ -565,7 +565,7 @@ namespace tjpUtils
 
 
 
-    void ShowConsoleCursor(bool shFlag)
+    void ShowConsoleCursor(const bool shFlag)
     {
         bool Success;
 
@@ -608,7 +608,7 @@ namespace tjpUtils
 
 
 
-    void SetCursor(SHORT x, SHORT y)
+    void SetCursor(const SHORT x, const SHORT y)
     {
         SetConsoleCursorPosition(tjpUtils::hstdout, {x, y} );
     }

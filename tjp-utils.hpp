@@ -177,14 +177,14 @@ namespace tjpUtils
 
     extern CONSOLE_SCREEN_BUFFER_INFOEX csbiEX;
 
-    extern void Color(uint8_t);
-    extern void Color(uint8_t, uint8_t);
+    extern void Color(const uint8_t);
+    extern void Color(const uint8_t, const uint8_t);
     extern void ClearConsoleToEndOfLine();
     extern void ClearScreen();
-    extern void SetCursor(SHORT, SHORT);
-    extern void DrawInfoBox(unsigned int, unsigned int, std::string, std::string);
-    extern void DisplayInfo(unsigned int, unsigned int, unsigned int, std::string);
-    extern void ShowConsoleCursor(bool);
+    extern void SetCursor(const SHORT, const SHORT);
+    extern void DrawInfoBox(const unsigned int, const unsigned int, const std::string, const std::string);
+    extern void DisplayInfo(const unsigned int, const unsigned int, const unsigned int, const std::string);
+    extern void ShowConsoleCursor(const bool);
 
     extern COORD GetCursor();
 
@@ -192,12 +192,12 @@ namespace tjpUtils
 
     extern LRESULT CALLBACK  Keyboard(int, WPARAM, LPARAM);
 
-    extern std::string rtrim(std::string, std::string);
-    extern std::string ltrim(std::string, std::string);
-    extern std::string  trim(std::string, std::string);
+    extern std::string rtrim(std::string, const std::string);
+    extern std::string ltrim(std::string, const std::string);
+    extern std::string  trim(std::string, const std::string);
 
     extern std::string Get_File_Contents(const std::string);
-    extern std::vector<std::string_view> SplitStringToVector(std::string_view, std::string_view);
+    extern std::vector<std::string_view> SplitStringToVector(const std::string_view, const std::string_view);
 }
 
 #endif

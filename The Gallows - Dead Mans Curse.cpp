@@ -12,10 +12,10 @@
 #include "tjp-utils.hpp"
 
 void SetUpGame();
-void Category_List_Check_Arrow_Up(unsigned int);
-void Category_List_Check_Arrow_Down(unsigned int);
-void Category_List_Check_Arrow_Left(unsigned int);
-void Category_List_Check_Arrow_Right(unsigned int);
+void Category_List_Check_Arrow_Up(const unsigned int);
+void Category_List_Check_Arrow_Down(const unsigned int);
+void Category_List_Check_Arrow_Left(const unsigned int);
+void Category_List_Check_Arrow_Right(const unsigned int);
 void DrawCategoryInfoBox();
 void PlayGame();
 void EndGame();
@@ -144,7 +144,7 @@ long int ShowCategoryMenu()
 
 
 
-void Category_List_Check_Arrow_Up(unsigned int Key)
+void Category_List_Check_Arrow_Up(const unsigned int Key)
 {
     if((Key == tjpUtils::vkArrowUp) & (Gallows::WordListChosen > 0))
     {
@@ -161,7 +161,7 @@ void Category_List_Check_Arrow_Up(unsigned int Key)
 
 
 
-void Category_List_Check_Arrow_Down(unsigned int Key)
+void Category_List_Check_Arrow_Down(const unsigned int Key)
 {
     if((Key == tjpUtils::vkArrowDown) & (Gallows::WordListChosen < (int)Gallows::WordLists.size() - 1))
     {
@@ -184,7 +184,7 @@ void Category_List_Check_Arrow_Down(unsigned int Key)
 
 
 
-void Category_List_Check_Arrow_Left(unsigned int Key)
+void Category_List_Check_Arrow_Left(const unsigned int Key)
 {
     if(Key == char(tjpUtils::vkArrowLeft))
     {
@@ -205,7 +205,7 @@ void Category_List_Check_Arrow_Left(unsigned int Key)
 
 
 
-void Category_List_Check_Arrow_Right(unsigned int Key)
+void Category_List_Check_Arrow_Right(const unsigned int Key)
 {
     if(Key == char(tjpUtils::vkArrowRight))
     {
@@ -340,7 +340,7 @@ void PlayGame()
         Gallows::CursorSecretMessage.X = (Gallows::MaximumConsoleWindowSize.X - word.length() * 2 - 2) / 2;
         Gallows::CursorSecretMessage.Y = Gallows::CursorSecretWord.Y + 2;
 
-        Gallows::CursorSelectALetter.X = 0;
+        Gallows::CursorSelectALetter.X = (Gallows::MaximumConsoleWindowSize.X - Gallows::SelectALetterMessage.size()) / 2;
         Gallows::CursorSelectALetter.Y = Gallows::CursorSecretWord.Y + 6;
 
         Gallows::CursorLetterList.X = 0;
