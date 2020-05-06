@@ -40,3 +40,15 @@ Thank you,
 Walter Whitman
 A.K.A. Waltersmind
 A.K.A. The Joyful Programmer
+
+![Screenshot 1](https://github.com/TheJoyfulProgrammer/The-Gallows---Dead-Mans-Curse/blob/master/ScreenshotsOfTheGame/Screenshot%20from%202020-05-06%2007-45-02.png)
+
+![Screenshot 2](https://github.com/TheJoyfulProgrammer/The-Gallows---Dead-Mans-Curse/blob/master/ScreenshotsOfTheGame/Screenshot%20from%202020-05-06%2007-52-53.png)
+
+![Screenshot 3](https://github.com/TheJoyfulProgrammer/The-Gallows---Dead-Mans-Curse/blob/master/ScreenshotsOfTheGame/Screenshot%20from%202020-05-06%2007-53-50.png)
+
+![Screenshot 4](https://github.com/TheJoyfulProgrammer/The-Gallows---Dead-Mans-Curse/blob/master/ScreenshotsOfTheGame/Screenshot%20from%202020-05-06%2007-54-39.png)
+
+![Screenshot 5](https://github.com/TheJoyfulProgrammer/The-Gallows---Dead-Mans-Curse/blob/master/ScreenshotsOfTheGame/Screenshot%20from%202020-05-06%2007-55-16.png)
+
+![Screenshot 6](https://github.com/TheJoyfulProgrammer/The-Gallows---Dead-Mans-Curse/blob/master/ScreenshotsOfTheGame/Screenshot%20from%202020-05-06%2007-55-49.png)
