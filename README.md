@@ -1,5 +1,5 @@
 # The Gallows - Dead Man's Curse
-A Windows Console hangman like game, written in C++ version 17 with the MingW compiler. This version was compiled with the Code::Blocks IDE, so the associated files are included.
+A hangman-like game, written in C++ version 17. **It is a Windows only console game and will not compile for any other operating system.** This version was compiled with the Code::Blocks IDE, so the associated files are included.
 
 # The Story behind The Gallows - Dead Man's Curse:
 While the game play of The Gallows - Dead Man's Curse may seem simple enough, there is a lot of power going on behind the scenes. When we play a simple game like this one, many of us don't take the time to think about how much time, energy, creativity, crafting, researching, and testing goes on during development. I, myself, am guilty of this, time and time again, even if I look at the source code.
